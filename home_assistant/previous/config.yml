@@ -1,4 +1,4 @@
-name: Docker Wyze Bridge (2.9.12 build)
+name: Docker Wyze Bridge OWN (2.9.12 build)
 description: Previous build. Use the REBUILD button to pull latest image.
 slug: docker_wyze_bridge_previous
 url: https://github.com/mrlt8/docker-wyze-bridge
@@ -13,6 +13,7 @@ startup: application
 boot: auto
 apparmor: false
 hassio_api: true
+host_network: true
 ports:
   1935/tcp: 1935
   8554/tcp: 8554

@@ -1,4 +1,5 @@
 {
-    "name": "docker-wyze-bridge",
-    "url": "https://github.com/mrlt8/docker-wyze-bridge"
+    "name": "docker-wyze-bridge-kriodoxis",
+    "url": "https://github.com/kriodoxis/docker-wyze-bridge",
+    "maintainer": "kriodoxis"
 }

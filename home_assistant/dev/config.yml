@@ -1,4 +1,4 @@
-name: Docker Wyze Bridge (DEV branch)
+name: Docker Wyze Bridge OWN (DEV branch)
 description: DEV build. Use the REBUILD button to pull latest image.
 slug: docker_wyze_bridge_dev
 url: "https://github.com/mrlt8/docker-wyze-bridge"
@@ -12,6 +12,7 @@ startup: application
 boot: auto
 apparmor: false
 hassio_api: true
+host_network: true
 ports:
   1935/tcp: 1935
   8554/tcp: 8554
